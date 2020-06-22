@@ -16,6 +16,11 @@
   padding: 0px;
 }
 
+[class*="indx-"] {
+  float: left;
+  padding: 0px;
+}
+
 html {
   font-family: "century gothic", sans-serif;
 }
@@ -23,6 +28,10 @@ html {
 .header {
   background-color: #9933cc;
   color: #ffffff;
+  padding: 15px;
+}
+
+.content {
   padding: 15px;
 }
 
@@ -44,6 +53,16 @@ html {
   background-color: #0099cc;
 }
 
+.home {
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  min-height: 665px;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
 .left {
   background-repeat: no-repeat;
   background-attachment: fixed; 
@@ -72,12 +91,39 @@ html {
 }
 
 /* For mobile phones: */
+[class*="indx-"] {
+  width: 100%;
+  min-height: 550px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .indx-s-1 {width: 50%;}
+  .indx-s-2 {width: 100%;}
+  .indx-s-3 {width: 35%;}
+  .indx-s-4 {width: 65%;}
+  
+  }
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .indx-1 {width: 50%;}
+  .indx-2 {width: 100%;}
+  .indx-3 {width: 35%;}
+  .indx-4 {width: 65%;}
+} 
+
+/* For mobile phones: */
 [class*="col-"] {
   width: 100%;
   min-height: 768px;
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;
+  padding: 5px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -95,6 +141,7 @@ html {
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
 }
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
