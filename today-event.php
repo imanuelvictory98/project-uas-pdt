@@ -7,11 +7,23 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Share+Tech+Mono'>
 <link rel="stylesheet" href="./css/style.css">
+
+<link rel="manifest" href="/manifest.json">
+<meta name="Description" content="Meeting Schedjule" />
+<!-- Mendeklarasikan warna yang muncul pada address bar Chrome versi seluler -->
+<meta name="theme-color" content="#414f57" />
+<!-- Mendeklarasikan ikon untuk iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="Today Meeting" />
+<link rel="apple-touch-icon" href="img/logo/merah.png" />
+<!-- Mendeklarasikan ikon untuk Windows -->
+<meta name="msapplication-TileImage" content="/mg/logo/merah.png" />
+<meta name="msapplication-TileColor" content="#000000" />
+  
 </head>
 
 <body>
-
-<div class="row">
 
   <div class="col-9 col-s-12" style="background-image: url('background/bg.jpg');">
 	<div class="left">
@@ -52,13 +64,24 @@
 		
 		<hr>
 			<h3>Follow Us</h3>
-			<h4><img src="img/sosmed/ig.png" style="max-width:35px"> <img src="img/sosmed/fb.png" style="max-width:35px"> <img src="img/sosmed/em.png" style="max-width:35px"> </h4>
+			<h4>
+        <a href="https://www.instagram.com/favepuriindah/?hl=id"><img src="img/sosmed/ig.png" style="max-width:35px"></a>
+        <a><img src="img/sosmed/fb.png" style="max-width:35px"></a>
+        <a><img src="img/sosmed/em.png" style="max-width:35px"><a> 
+      </h4>
 		
 	</div>
-  </div>
   
 </div>
 
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js');
+    });
+  }
+</script>
 
 </body>
 </html>
