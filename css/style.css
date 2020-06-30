@@ -96,8 +96,8 @@ html {
 /* For mobile phones: */
 [class*="indx-"] {
   width: 100%;
-  min-height: 480px;
-  max-height: 720px;
+  min-height: 580px;
+  max-height: 840px;
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;
@@ -187,7 +187,7 @@ img {
 /* [SLIDER] */
 #s-slider,  #s-slider .s-slide{
   max-width: 480px;
-  height:200px;
+  height: 250px;
 }
 
 #s-slider {

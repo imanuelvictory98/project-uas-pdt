@@ -78,6 +78,7 @@ function carousel() {
 
 <div class="indx-3 indx-s-2" style="text-align:justify; background: #8B254F; padding: 10px 20px;">
 <h1> Today Event : </h1>
+<br>
 <div id="s-slider" style="text-align:justify;">
       <div class="s-container">
         <div class="s-slide">
@@ -136,6 +137,8 @@ Roof Top at "R Floor"
 </div>  
   
  <div class="footer" style="color: #8B254F">
+		<br>
+		<br>
 		<p>
 			puriindahjakarta.favehotels.com 
 			</br>
