@@ -18,7 +18,7 @@
 
 [class*="indx-"] {
   float: left;
-  padding: 0px;
+  padding: 5 px;
 }
 
 html {
@@ -33,6 +33,10 @@ html {
 
 .content {
   padding: 15px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
 }
 
 .menu ul {
@@ -58,7 +62,6 @@ html {
   background-attachment: fixed; 
   background-size: 100% 100%;
   min-height: 665px;
-  padding: 15px;
   color: white;
   text-align: center;
   font-size: 15px;
@@ -93,14 +96,15 @@ html {
 /* For mobile phones: */
 [class*="indx-"] {
   width: 100%;
-  min-height: 550px;
+  min-height: 480px;
+  max-height: 720px;
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: 100% 100%;
   padding: 5px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 480px) {
   /* For tablets: */
   .indx-s-1 {width: 50%;}
   .indx-s-2 {width: 100%;}
@@ -108,7 +112,7 @@ html {
   .indx-s-4 {width: 65%;}
   
   }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 780px) {
   /* For desktop: */
   .indx-1 {width: 50%;}
   .indx-2 {width: 100%;}
@@ -116,12 +120,13 @@ html {
   .indx-4 {width: 65%;}
 } 
 
+
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
   min-height: 768px;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
   background-size: 100% 100%;
   padding: 5px;
 }
@@ -177,4 +182,58 @@ html {
 img {
   width: 100%;
   height: auto;
+}
+
+/* [SLIDER] */
+#s-slider,  #s-slider .s-slide{
+  max-width: 480px;
+  height:200px;
+}
+
+#s-slider {
+  overflow: hidden;
+  margin: 0 auto;
+}
+#s-slider .s-container {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  animation: slide-animation 40s infinite;
+}
+#s-slider .s-slide {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* [ANIMATION] */
+@keyframes slide-animation {
+  0% { 
+    opacity: 0;
+    bottom: 0;
+  }
+  11% {
+    opacity: 1;
+    bottom: 0; 
+  }
+  22% { bottom: 100%; }
+  33% { bottom: 100%; }
+  44% { bottom: 200%; }
+  55% { bottom: 200%; }
+  66% { bottom: 300%; }
+  77% { bottom: 300%; }
+  88% {
+    opacity: 1;
+    bottom: 400%; 
+  }
+  100% {
+    opacity: 0;
+    bottom: 400%;
+  }
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }

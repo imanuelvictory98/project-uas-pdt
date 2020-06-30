@@ -1,4 +1,4 @@
-define("./workbox-f058ae6f.js", ["exports"], function(t) {
+define("../workbox-f058ae6f.js", ["exports"], function(t) {
   "use strict";
   try {
     self["workbox:core:5.1.3"] && _();

@@ -43,7 +43,7 @@ if (!self.define) {
       }));
   };
 }
-define("./sw.js", ["./workbox-f058ae6f"], function(e) {
+define("../sw.js", ["../workbox-f058ae6f"], function(e) {
   "use strict";
   self.addEventListener("message", e => {
     e.data && "SKIP_WAITING" === e.data.type && self.skipWaiting();

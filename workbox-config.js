@@ -1,7 +1,7 @@
 module.exports = {
   globDirectory: "/",
   globPatterns: ["**/*.{html,json,js,css,woff}"],
-  swDest: "./sw.js",
+  swDest: "../sw.js",
   runtimeCaching: [
     {
       urlPattern: /\.(?:png|jpg|jpeg|svg)$/,

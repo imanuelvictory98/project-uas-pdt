@@ -27,33 +27,31 @@
 
 <body>
 
-<div class="home" style="color: #8B254F">
+<div class="home">
   
   <p><img src="img/logo/merah.png" style="max-width:250px;"></p>
   
-   <div class="content">
-    <div class="indx-3 indx-s-2" > 
+ <div class="content" style="color: #8B254F">
+    <div class="indx-1 indx-s-2" > 
       <h1 style="text-align: left;">Welcome to Puri Indah </h1>
-	  	<h5 style="text-align:justify;"><p>A great location in West Jakarta's bustling Puri Indah with fast and easy access to Jakarta - Tangerang Toll Road, Kebon Jeruk and the many business on and around Daan Mogot, make This "fave" one of Jakartas's favorite select service hotels. The 108 stylist rooms are modern, functional and super clean offering cutting-edge LCD TVs, fast and reliable complimentary WiFi, security key card system, air conditioning, in room saves and top of the line and beds with high knot count cotton linens.</p></h/5>
-    </div>
+	  	<h5 style="text-align:justify;"><p>A great location in West Jakarta's bustling Puri Indah with fast and easy access to Jakarta - Tangerang Toll Road, Kebon Jeruk and the many business on and around Daan Mogot, make This "fave" one of Jakartas's favorite select service hotels. The 108 stylist rooms are modern, functional and super clean offering cutting-edge LCD TVs, fast and reliable complimentary WiFi, security key card system, air conditioning, in room saves and top of the line and beds with high knot count cotton linens.</p>
+		<br>
+		Jl. Kembang Abadi Utama Jl. Berlian Raya No.1, Kembangan Sel., Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11610
+		<br><br>
+		T	: +62 21 580 7711<br>
+		E	: puriindahinfo@favehotels.com<br>
+		W	: puriindahjakarta.favehotels.com<br>
+		</h5> 
+	</div>
     
-    <div class="indx-4 indx-s-2" >
-      <br><br>
-      <div class="content">
-      <img src="background/bg.jpg" style="max-width:850px;">
-      </div>
-    </div>
-   </div>
-  
-  <p></p>
-  
+    <div class="indx-1 indx-s-2" >
     <div class="content">
-      <div class="w3-content w3-section" style="max-width:1080px">
-        <p><h2 style="color: #8B254F; text-align: center;">Today Promo</h2></p>
-        <img class="mySlides w3-animate-fading" src="background/bg.jpg" style="width:100%">
-        <img class="mySlides w3-animate-fading" src="img_rr_02.jpg" style="width:100%">
-        <img class="mySlides w3-animate-fading" src="img_rr_03.jpg" style="width:100%">
-        <img class="mySlides w3-animate-fading" src="img_rr_04.jpg" style="width:100%">
+	<h2 style="text-align: Center;">Today Promo </h2>
+      <div class="w3-content w3-section" style="max-width:400px; text-align:center;">
+        <img class="mySlides w3-animate-fading" src="img/promo/1.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="img/promo/2.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="img/promo/3.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="img/promo/4.jpg" style="width:100%">
       </div>
   
     <script>
@@ -73,32 +71,77 @@ function carousel() {
 }
 </script>
       
-    </div>
-    
-  <div class="content" style="text-align: center;">
-    <h1>
-      Today Event
-      <p>
-        Puri 1 <br>
-        Puri 2 <br>
-        Puri 3 <br>
-        Puri 5 <br>
-        Puri 6 <br>
-        Board Room <br>
-        Rooftop <br>
-      </p>
-    </h1>
+   </div>
   </div>
-  
+</div>
+
+
+<div class="indx-3 indx-s-2" style="text-align:justify; background: #8B254F; padding: 10px 20px;">
+<h1> Today Event : </h1>
+<div id="s-slider" style="text-align:justify;">
+      <div class="s-container">
+        <div class="s-slide">
+          <h3>Puri 1</h3>
+          <p>
+            The episode orbits? The panic overwhelms a fuse. The major lurks below the shower! The tactic founds the nut. Why can't a pardon toss the sexist exercise?
+          </p>
+        </div>
+        <div class="s-slide">
+          <h3>Puri 2</h3>
+          <p>
+            The lasting astronomer balances the counter reminder. The trap hires the paradox. The employer watches the laser next to the exhausted historian. The water oils a breakfast.
+          </p>
+        </div>
+        <div class="s-slide">
+          <h3>Puri 3</h3>
+          <p>
+            Her birthday calculates past a juice! The envy succeeds across an evident jelly. An afternoon shifts opposite a bust. The tired clash divides a widest sneak. The satire springs onto a misfortune after the inclined car.
+          </p>
+        </div>
+		<div class="s-slide">
+          <h3>Puri 5</h3>
+          <p>
+            Her birthday calculates past a juice! The envy succeeds across an evident jelly. An afternoon shifts opposite a bust. The tired clash divides a widest sneak. The satire springs onto a misfortune after the inclined car.
+          </p>
+        </div>	
+	    <div class="s-slide">
+          <h3>Puri 6</h3>
+          <p>
+            Her birthday calculates past a juice! The envy succeeds across an evident jelly. An afternoon shifts opposite a bust. The tired clash divides a widest sneak. The satire springs onto a misfortune after the inclined car.
+          </p>
+        </div>
+       </div>
+    </div>
+	
+<h4>Floor Direction :</h4>
+<h5>
+Board Room, Puri 1 & Puri 2 at "First Floor"<br>
+Puri 3 , Puri 5, & Puri 6 at "Second Floor"<br>
+Roof Top at "R Floor"
+</h5>
+
+</div>
+
+<div class="indx-4 indx-s-2" style="background: #8B254F;">   
+   <h2 style="text-align: center;">
+      How Can We Help You ...?
+	  <br>
+	  <img src="img/sosmed/ig.png" alt="Avatar" class="avatar">
+	  <img src="img/sosmed/ig.png" alt="Avatar" class="avatar">
+	</h2> 
+</div>
+	  
+
+ 
 </div>  
   
-  <div class="footer" style="color: #8B254F">
+ <div class="footer" style="color: #8B254F">
 		<p>
 			puriindahjakarta.favehotels.com 
 			</br>
 			<img src="img/footer/color.png"> 
 		</p>
-	</div>
+</div>
   
 <script>
   if ('serviceWorker' in navigator) {
