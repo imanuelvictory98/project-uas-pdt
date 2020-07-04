@@ -91,6 +91,10 @@ html {
   text-align: center;
   font-size: 18px;
   max-height: 50px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  padding: 10px 20px;
 }
 
 /* For mobile phones: */
@@ -110,6 +114,7 @@ html {
   .indx-s-2 {width: 100%;}
   .indx-s-3 {width: 35%;}
   .indx-s-4 {width: 65%;}
+  .indx-s-5 {width: 22%;}
   
   }
 @media only screen and (min-width: 780px) {
@@ -125,6 +130,7 @@ html {
 [class*="col-"] {
   width: 100%;
   min-height: 768px;
+  max-height : 1080;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;

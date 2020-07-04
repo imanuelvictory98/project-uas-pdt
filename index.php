@@ -28,11 +28,11 @@
 
 <body>
 
-<div class="home">
+<div class="home" >
   
   <p><img src="img/logo/merah.png" style="max-width:250px;"></p>
   
-<div class="indx-1 indx-s-2" style="color: #8B254F; padding: 10px 20px;" > 
+<div class="indx-1 indx-s-2" style="background: #8B254F; border-style: solid; padding: 10px 20px;" > 
       <h1 style="text-align: left;">Welcome to Puri Indah </h1>
 	  	<h5 style="text-align:justify;"><p>A great location in West Jakarta's bustling Puri Indah with fast and easy access to Jakarta - Tangerang Toll Road, Kebon Jeruk and the many business on and around Daan Mogot, make This "fave" one of Jakartas's favorite select service hotels. The 108 stylist rooms are modern, functional and super clean offering cutting-edge LCD TVs, fast and reliable complimentary WiFi, security key card system, air conditioning, in room saves and top of the line and beds with high knot count cotton linens.</p>
 		<br>
@@ -44,7 +44,7 @@
 		</h5> 
 </div>
     
-<div class="indx-1 indx-s-2" style="color: #8B254F;" >
+<div class="indx-1 indx-s-2" style="background: #8B254F; border-style: solid;" >
 <h1>Today Promo ..!!</h1>
 <div class="w3-content w3-section" style="max-width:440px; text-align:center;">
     <img class="mySlides w3-animate-fading" src="img/promo/1.jpg" style="width:100%">
@@ -74,7 +74,7 @@ function carousel() {
 
 
 
-<div class="indx-3 indx-s-2" style="text-align:justify; background: #8B254F; padding: 10px 20px;">
+<div class="indx-3 indx-s-2" style="text-align:justify; background: #8B254F; padding: 10px 20px; border-style: solid;">
 <h1> Today Event : </h1>
 <br>
 <div id="s-slider" style="text-align:justify;">
@@ -121,50 +121,75 @@ Roof Top at "R Floor"
 
 </div>
 
-<div class="indx-4 indx-s-2" style="background: #8B254F;">   
+<div class="indx-4 indx-s-2" style="background: #8B254F; border-style: solid;">   
    <h2 style="text-align: center;">
       Enjoy Our Facilites
    </h2> 
  
    <div class="v-container">
-	 <iframe src="//www.youtube.com/embed/S9-9leT1LLE?autoplay=1" frameborder="0" allowfullscreen class="video"></iframe>
+	 <iframe src="//www.youtube.com/embed/S9-9leT1LLE?" frameborder="0" allowfullscreen class="video"></iframe>
    </div>
 
 </div>
 	   
-<div class="indx-1 indx-s-2" style="text-align:center; color: #8B254F; padding: 10px 20px;; max-height:250px; ">
-<h1> Wifi information </h1>
-<img src="img/wifi logo.jpg" style="max-width : 250px;">
-<img src="img/qr-code.png" style="max-width : 275px;"><br>
-scan it to connect WIFI
-</div>  
-<div class="indx-1 indx-s-2" style="text-align:justify; color: #8B254F; padding: 10px 20px;; max-height:250px;">
+<div class="indx-1 indx-s-2" style="text-align:Center; background: #8B254F; border-style: solid; padding: 10px 20px;">
+	<br>
+		<h4>Scan it to connect the wifi</h4>
+	<br>
+		<img  src="img/qr-code.png" style="max-width:260px">
+	<br>
+		<h4>Follow Us</h4>		
+		<image src="img/sosmed/wa.png" onclick="window.location.href=' https://api.whatsapp.com/send?phone=6285718681931'" style="max-width:100px;">
+		<image src="img/sosmed/ig.png" onclick="window.location.href=' https://www.instagram.com/favepuriindah/?hl=id'" style="max-width:50px;"><span>
+		<image src="img/sosmed/fb.png" onclick="window.location.href=' https://www.facebook.com/favehotelpuriindah'" style="max-width:50px;"><span>
+		<image src="img/sosmed/em.png" onclick="window.location.href=' mailto:puriindahinfo@favehotels.com'" style="max-width:50px;"><span>
+</div>
+  
+<div class="indx-1 indx-s-2" style="text-align:Center; background: #8B254F; border-style: solid; padding: 10px 20px;">
+
 <P>
-	<image src="img/sosmed/ig.png" onclick="document.getElementById('id01').style.display='block'" style="max-width:80px;"><span>
-	<image src="img/sosmed/ig.png" onclick="document.getElementById('id01').style.display='block'" style="max-width:80px;"><span>
+	<br>
+	<h1>How We can help You ..? </h1>
+	<br><br>
+	<image src="img/logo/Contact.png" onclick="window.location.href='tel:+62215807711'" style="max-width:150px;"><span>
+	<image src="img/logo/About.png" onclick="document.getElementById('id02').style.display='block'" style="max-width:150px;"><span>
+	<image src="img/logo/Menu.png" onclick="document.getElementById('id03').style.display='block'" style="max-width:150px;"><span>
+	<image src="img/logo/Location.png" onclick="document.getElementById('id04').style.display='block'" style="max-width:150px;"><span>
+	<br><br>
+	<h3> Dear Guest, Thank you for choosing us as your trust hotel, We hope we will meet again in the future</h3>
+	<h5>Favehotel Puri Indah Management</h5>
 </P>
-<div id="id01" class="modal">
+
+
+<div id="id02" class="modal">
+<span onclick="document.getElementById('id02').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
 	<p>
-	<img src="img/menu/3.jpeg" style="max-width: 380px;">
-	<img src="img/menu/1.jpeg" style="max-width: 380px;">
 	<img src="img/menu/2.jpeg" style="max-width: 360px;">
 	</p>
 </div>
 
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
+<div id="id03" class="modal">
+<span onclick="document.getElementById('id03').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
+	<img src="img/menu/2.jpeg" style="max-width: 360px;">
+	<img src="img/menu/3.jpeg" style="max-width: 380px;">
+	<img src="img/menu/1.jpeg" style="max-width: 380px;">
+
+</div>
+
+<div id="id04" class="modal">
+<span onclick="document.getElementById('id04').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7933.264119442987!2d106.7621127!3d-6.1799786!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x579e8abc0ff5c9a6!2sFave%20Hotel%20Puri%20Indah!5e0!3m2!1sid!2sid!4v1593801076620!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="0" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
 </div>
 
 </div> 
+
+
 <div class="footer" style="color: #8B254F">
 		<br>
 		<p>
