@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Today meeting</title>
+<title>Hotel System Information</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="manifest" href="/manifest.json">
-<meta name="Description" content="Meeting Schedjule" />
+<meta name="Description" content="Hotel System Information" />
 <!-- Mendeklarasikan warna yang muncul pada address bar Chrome versi seluler -->
 <meta name="theme-color" content="#414f57" />
 <!-- Mendeklarasikan ikon untuk iOS -->
@@ -38,9 +38,9 @@
 		<br>
 		Jl. Kembang Abadi Utama Jl. Berlian Raya No.1, Kembangan Sel., Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11610
 		<br><br>
-		<a href="tel:+62215807711"  style="text-decoration:none"><img src="img/sosmed/tlp.jpg" style="width:32px;"> +62 21 580 7711</a><br>
-		<a href="mailto:puriindahinfo@favehotels.com"  style="text-decoration:none"><img src="img/sosmed/em.png" style="width:27px;"> puriindahinfo@favehotels.com</a><br>
-		<a href="https://puriindahjakarta.favehotels.com"  style="text-decoration:none"><img src="img/sosmed/em.png" style="width:27px;"> puriindahjakarta.favehotels.com</a><br>
+		<a href="tel:+62215807711"  style="text-decoration:none"><img src="img/sosmed/tlp.png" style="width:27px;"><span> +62 21 580 7711</a><br>
+		<a href="mailto:puriindahinfo@favehotels.com"  style="text-decoration:none"><img src="img/sosmed/em.png" style="width:27px;"><span> puriindahinfo@favehotels.com</a><br>
+		<a href="https://puriindahjakarta.favehotels.com"  style="text-decoration:none"><img src="img/sosmed/www.png" style="width:27px;"><span> puriindahjakarta.favehotels.com</a><br>
 		</h5> 
 </div>
     
@@ -112,7 +112,7 @@ function carousel() {
        </div>
     </div>
 	
-<h4>Floor Direction :</h4>
+<h3>Floor Direction :</h3>
 <h5>
 Board Room, Puri 1 & Puri 2 at "First Floor"<br>
 Puri 3 , Puri 5, & Puri 6 at "Second Floor"<br>
@@ -139,7 +139,7 @@ Roof Top at "R Floor"
 		<img  src="img/qr-code.png" style="max-width:260px">
 	<br>
 		<h4>Follow Us</h4>		
-		<image src="img/sosmed/wa.png" onclick="window.location.href=' https://api.whatsapp.com/send?phone=6285718681931'" style="max-width:100px;">
+		<image src="img/sosmed/wa.png" onclick="window.location.href=' https://api.whatsapp.com/send?phone=6285718681931'" style="max-width:50px;"><span>
 		<image src="img/sosmed/ig.png" onclick="window.location.href=' https://www.instagram.com/favepuriindah/?hl=id'" style="max-width:50px;"><span>
 		<image src="img/sosmed/fb.png" onclick="window.location.href=' https://www.facebook.com/favehotelpuriindah'" style="max-width:50px;"><span>
 		<image src="img/sosmed/em.png" onclick="window.location.href=' mailto:puriindahinfo@favehotels.com'" style="max-width:50px;"><span>
